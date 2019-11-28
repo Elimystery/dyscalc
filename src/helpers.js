@@ -19,6 +19,7 @@ export const pickSome = (arr, amount) => {
         const idx = Math.floor(Math.random() * arr.length);
         const deleted = arr.splice(idx, 1);
         picked.push(deleted[0]);
+        document.write("nuevo general");
     }
 
     return picked;
