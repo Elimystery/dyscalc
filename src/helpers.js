@@ -21,6 +21,7 @@ export const pickSome = (arr, amount) => {
         picked.push(deleted[0]);
         document.write("nuevo general");
         document.write("nuevo secundario");
+        document.write("nuevo terceario");
     }
 
     return picked;
