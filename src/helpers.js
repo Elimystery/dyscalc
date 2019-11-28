@@ -20,6 +20,11 @@ export const pickSome = (arr, amount) => {
         const deleted = arr.splice(idx, 1);
         picked.push(deleted[0]);
         document.write("nuevo general");
+<<<<<<< HEAD
+=======
+        document.write("nuevo secundario");
+        document.write("nuevo terceario");
+>>>>>>> develop
     }
 
     return picked;
