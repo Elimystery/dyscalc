@@ -20,6 +20,8 @@ export const pickSome = (arr, amount) => {
         const deleted = arr.splice(idx, 1);
         picked.push(deleted[0]);
         document.write("nuevo general");
+        document.write("nuevo general");
+        document.write("nuevo general");
     }
 
     return picked;
